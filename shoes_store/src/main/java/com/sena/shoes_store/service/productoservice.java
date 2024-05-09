@@ -1,4 +1,4 @@
-package com.sena.service;
+package com.sena.shoes_store.service;
 
 
 import java.util.List;
@@ -7,13 +7,15 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sena.interfaces.Iproducto;
-import com.sena.interfacesService.IproductoService.IproductosService;
-import com.sena.model.productos;
+import com.sena.shoes_store.interfaces.Iproducto;
+import com.sena.shoes_store.interfacesService.IproductoService;
+import com.sena.shoes_store.model.productos;
+
+
 
 
 @Service
-public class productoservice implements IproductosService{
+public class productoservice implements IproductoService{
     
 @Autowired
 private Iproducto data;
@@ -63,6 +65,12 @@ public int delete(String id_producto) {
     productos.setEstado("inactivo");
     data.save(productos);
     return 0;
+}
+
+@Override
+public void save(Object producto) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'save'");
 }
 
 

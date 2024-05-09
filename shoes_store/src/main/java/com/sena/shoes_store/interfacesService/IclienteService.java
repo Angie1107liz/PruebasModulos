@@ -1,4 +1,4 @@
-package com.sena.interfacesService;
+package com.sena.shoes_store.interfacesService;
 
 import java.util.List;
 
@@ -6,10 +6,7 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.sena.model.cliente;
-
-
-
+import com.sena.shoes_store.model.cliente;
 
 
 @Service

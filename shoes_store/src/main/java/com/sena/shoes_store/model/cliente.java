@@ -1,4 +1,4 @@
-package com.sena.model;
+package com.sena.shoes_store.model;
 import jakarta.persistence.Id;
 
 import jakarta.persistence.Column;

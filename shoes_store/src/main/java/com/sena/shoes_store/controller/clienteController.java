@@ -1,4 +1,4 @@
-package com.sena.controller;
+package com.sena.shoes_store.controller;
 	import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sena.interfacesService.IclienteService;
-import com.sena.model.cliente;
+
+
 
 
 	@RequestMapping("/api/v1/cliente")
